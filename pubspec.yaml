@@ -1,0 +1,5 @@
+name: server_logger
+version: 0.1.0
+author: Brandon White <jennexproject+serverlogger@gmail.com>
+description: A basic logging helper for server-side projects.
+homepage: http://jennex.it/now/dev
