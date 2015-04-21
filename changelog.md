@@ -1,6 +1,10 @@
 ServerLogger
 ============
 
+v0.1.1 (_._._2015)
+------------------
+* Added better ReadMe documentation.
+
 v0.1.0 (4.14.2015)
 ------------------
 * Took the method out of a redundant class container; prefer namespacing on the import;
