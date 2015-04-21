@@ -1,8 +1,8 @@
 ServerLogger
 ============
 
-A basic Dart language logging helper for server-side projects. Includes a timestamp prefix
-in the output, and can be switched on or off.
+A basic Dart language server-side logging helper. Includes a timestamp prefix in
+the output, and can be switched on or off.
 
 Getting Started
 ---------------
@@ -16,7 +16,7 @@ dependencies:
     git: git://github.com/bwhite000/server_logger.git
 ````
 
-__main.dart__
+__main.dart__ - Begin logging!
 
 ````Dart
 import "package:server_logger/server_logger.dart" as ServerLogger;
