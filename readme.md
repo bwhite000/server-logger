@@ -57,3 +57,8 @@ void main() {
   ServerLogger.isEnabled = true; // Switch back on
 }
 ````
+
+Features and bugs
+-----------------
+
+Please file feature requests and bugs using the GitHub issue tracker for this repository.
