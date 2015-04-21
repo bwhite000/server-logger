@@ -25,7 +25,7 @@ void main() {
   // Logs - regular style
   ServerLogger.log('This is a basic log.');  // Strings,
   ServerLogger.log({"name": "Jerry"});       // Maps,
-  ServerLogger.log(new WebSocket('...'));    // Objects, etc.
+  ServerLogger.log(new DateTime.now());      // Objects, etc.
 
   // Errors - red console output
   ServerLogger.error('Something broke!');
