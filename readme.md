@@ -2,7 +2,8 @@ ServerLogger
 ============
 
 A basic Dart language server-side logging helper. Includes a timestamp prefix in
-the output, and can be switched on or off.
+the output, and can be switched on or off programmatically. *For __client-side
+logging__ like this, please try out my [Logger package](https://github.com/bwhite000/logger).*
 
 Calling:
 
@@ -18,6 +19,8 @@ will appear in the console as:
 
 Getting Started
 ---------------
+
+Follow these layouts for your server-side Dart project.
 
 __pubspec.yaml__ - Add the dependency.
 
