@@ -4,6 +4,18 @@ ServerLogger
 A basic Dart language server-side logging helper. Includes a timestamp prefix in
 the output, and can be switched on or off.
 
+Calling:
+
+````Dart
+ServerLogger.log('Hello, world!');
+````
+
+will appear in the console as:
+
+````plain
+[20XX-4-25 4:00:33.875] Hello, world!
+````
+
 Getting Started
 ---------------
 
