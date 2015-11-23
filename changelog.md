@@ -1,7 +1,16 @@
 ServerLogger
 ============
 
-v0.1.1 (_._._2015)
+v1.0.0 (11.23.2015)
+-------------------
+* Changed the print() statements to using Dart IO's asynchronous and better organized methods of
+  stdout and stderr for logging.
+* Stored some properties in a variable to lower the repeated property access which is less efficient
+  in repeated use versus a single variable; in this case, the code that generates the output timestamps.
+* __Pubspec:__ Changed the homepage to my Google Plus account Url to make it easier to be able to get in
+  contact with me.
+
+v0.1.1 (4.29.2015)
 ------------------
 * Added better ReadMe documentation.
 
